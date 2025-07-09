@@ -1,7 +1,7 @@
 # See config.example.yml for documentation.
 object_base: orig/SPDE52
 object: sys/main.dol
-hash: 0123456789abcdef0123456789abcdef01234567
+hash: b2df499fc3325ad5a11db613f62256888be9ead8
 symbols: config/SPDE52/symbols.txt
 splits: config/SPDE52/splits.txt
 # Change this to match the linker version.
