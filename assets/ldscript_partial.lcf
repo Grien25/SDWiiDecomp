@@ -1,0 +1,12 @@
+SECTIONS
+{
+    GROUP:
+    {
+        $SECTIONS
+    }
+}
+
+FORCEACTIVE
+{
+	$FORCEACTIVE
+}

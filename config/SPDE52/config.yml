@@ -6,4 +6,5 @@ symbols: config/SPDE52/symbols.txt
 splits: config/SPDE52/splits.txt
 # Change this to match the linker version.
 # See config.example.yml for a list.
+ldscript_template: assets/ldscript.lcf
 mw_comment_version: 14
