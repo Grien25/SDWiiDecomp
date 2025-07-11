@@ -1,0 +1,1094 @@
+Sections:
+	.init       type:code align:4
+	extab       type:rodata align:32
+	extabindex  type:rodata align:32
+	.text       type:code align:32
+	.ctors      type:rodata align:8
+	.dtors      type:rodata align:8
+	.rodata     type:rodata align:32
+	.data       type:data align:32
+	.bss        type:bss align:64
+	.sdata      type:data align:16
+	.sbss       type:bss align:32
+	.sdata2     type:rodata align:8
+	.sbss2      type:bss align:16
+
+auto_12_806AD300_sbss2:
+	.sbss2      start:0x806AD300 end:0x806AD300
+
+auto_11_806A7C20_sdata2:
+	.sdata2     start:0x806A7C20 end:0x806A7C38
+
+auto_10_806A7180_sbss:
+	.sbss       start:0x806A7180 end:0x806A7180
+
+auto_10_806A7750_sbss:
+
+auto_09_806A6C20_sdata:
+	.sdata      start:0x806A6C20 end:0x806A6C20
+
+auto_08_805BAB80_bss:
+	.bss        start:0x805BAB80 end:0x805BAB88
+
+auto_07_8032E2C0_data:
+	.data       start:0x8032E2C0 end:0x8032E2E4
+
+auto_07_80595F78_data:
+
+auto_07_805A0068_data:
+
+auto_06_80325860_rodata:
+	.rodata     start:0x80325860 end:0x80325870
+
+auto_03_80007440_text:
+	.text       start:0x80007440 end:0x80007440
+
+auto_fn_8001CAE0_text:
+
+auto_03_8001CB64_text:
+
+auto_fn_8002404C_text:
+
+auto_03_800240C4_text:
+
+auto_fn_8004BDA4_text:
+
+auto_03_8004BE28_text:
+
+auto_fn_800575B0_text:
+
+auto_03_80057688_text:
+
+auto_fn_80058B0C_text:
+
+auto_03_80058B90_text:
+
+auto_fn_8006172C_text:
+
+auto_03_80061804_text:
+
+auto_fn_80066B94_text:
+
+auto_03_80066C18_text:
+
+auto_fn_8006F234_text:
+
+auto_03_8006F300_text:
+
+auto_fn_80070E50_text:
+
+auto_03_80070ED4_text:
+
+auto_fn_8007148C_text:
+
+auto_03_800715D8_text:
+
+auto_fn_80082E54_text:
+
+auto_03_80082ED8_text:
+
+auto_fn_80084994_text:
+
+auto_03_80084A18_text:
+
+auto_fn_800854AC_text:
+
+auto_03_80085530_text:
+
+auto_fn_8008605C_text:
+
+auto_03_800860E0_text:
+
+auto_fn_80086D4C_text:
+
+auto_03_80086DD0_text:
+
+auto_fn_80088F78_text:
+
+auto_03_80088FFC_text:
+
+auto_fn_80089B44_text:
+
+auto_03_80089BC8_text:
+
+auto_fn_8008A4D0_text:
+
+auto_03_8008A554_text:
+
+auto_fn_8008B1C0_text:
+
+auto_03_8008B244_text:
+
+auto_fn_8008D10C_text:
+
+auto_03_8008D190_text:
+
+auto_fn_8008E858_text:
+
+auto_03_8008E8DC_text:
+
+auto_fn_80090038_text:
+
+auto_03_800900BC_text:
+
+auto_fn_80092018_text:
+
+auto_03_800920F0_text:
+
+auto_fn_800955B0_text:
+
+auto_03_80095640_text:
+
+auto_fn_800968E0_text:
+
+auto_03_80096964_text:
+
+auto_fn_800975E0_text:
+
+auto_03_80097664_text:
+
+auto_fn_80098CD4_text:
+
+auto_03_80098D58_text:
+
+auto_fn_800A1C1C_text:
+
+auto_03_800A1CA0_text:
+
+auto_fn_800A4C08_text:
+
+auto_03_800A4C8C_text:
+
+auto_fn_800A6B50_text:
+
+auto_03_800A6EC8_text:
+
+auto_fn_800C7518_text:
+
+auto_03_800C75F0_text:
+
+auto_fn_800CC68C_text:
+
+auto_03_800CC710_text:
+
+auto_fn_800D1FE8_text:
+
+auto_03_800D206C_text:
+
+auto_fn_800D6F50_text:
+
+auto_03_800D6F88_text:
+
+auto_fn_80143B60_text:
+
+auto_03_80143BC4_text:
+
+auto_fn_80146C68_text:
+
+auto_03_80146CEC_text:
+
+auto_fn_8014EBEC_text:
+
+auto_03_8014EC70_text:
+
+auto_fn_80152810_text:
+
+auto_03_80152894_text:
+
+auto_fn_80154E24_text:
+
+auto_03_80154EA8_text:
+
+auto_fn_801587CC_text:
+
+auto_03_80158850_text:
+
+auto_fn_8015D6E0_text:
+
+auto_03_8015D7B8_text:
+
+auto_fn_80160658_text:
+
+auto_03_801606DC_text:
+
+auto_fn_80160D34_text:
+
+auto_03_80160DFC_text:
+
+auto_fn_801794B0_text:
+
+auto_03_80179534_text:
+
+auto_fn_80182368_text:
+
+auto_03_80182430_text:
+
+auto_fn_8018D83C_text:
+
+auto_03_8018D8C0_text:
+
+auto_fn_80193318_text:
+
+auto_03_8019339C_text:
+
+auto_fn_801944E0_text:
+
+auto_03_80194564_text:
+
+auto_fn_80196214_text:
+
+auto_03_80196298_text:
+
+auto_fn_80197E2C_text:
+
+auto_03_80197EB0_text:
+
+auto_fn_80199848_text:
+
+auto_03_80199974_text:
+
+auto_fn_801ADC38_text:
+
+auto_03_801ADC5C_text:
+
+auto_fn_801B359C_text:
+
+auto_03_801B3620_text:
+
+auto_fn_801B4670_text:
+
+auto_03_801B46F4_text:
+
+auto_fn_801B4E24_text:
+
+auto_03_801B4EA8_text:
+
+auto_fn_801B86C4_text:
+
+auto_03_801B8748_text:
+
+auto_fn_801B9A68_text:
+
+auto_03_801B9AEC_text:
+
+auto_fn_801BAC58_text:
+
+auto_03_801BACDC_text:
+
+auto_fn_801C90EC_text:
+
+auto_03_801C9170_text:
+
+auto_fn_801CA8A4_text:
+
+auto_03_801CA928_text:
+
+auto_fn_801D3CAC_text:
+
+auto_03_801D3D30_text:
+
+auto_fn_801D918C_text:
+
+auto_03_801D9210_text:
+
+auto_fn_801DD784_text:
+
+auto_03_801DD808_text:
+
+auto_fn_801E10AC_text:
+
+auto_03_801E1130_text:
+
+auto_fn_801E4A44_text:
+
+auto_03_801E4AC8_text:
+
+auto_fn_801E6BDC_text:
+
+auto_03_801E6C60_text:
+
+auto_fn_801FFC64_text:
+
+auto_03_801FFCE8_text:
+
+auto_fn_802192FC_text:
+
+auto_03_80219380_text:
+
+auto_fn_8021A624_text:
+
+auto_03_8021A6A8_text:
+
+auto_fn_8022142C_text:
+
+auto_03_802214B0_text:
+
+auto_fn_80227A88_text:
+
+auto_03_80227A94_text:
+
+auto_fn_80227BD8_text:
+	extab       start:0x80006740 end:0x80006758
+	extabindex  start:0x80006C80 end:0x80006C8C
+
+auto_fn_80227CDC_text:
+	extab       start:0x80006758 end:0x80006760
+	extabindex  start:0x80006C8C end:0x80006C98
+
+auto_fn_80227D98_text:
+	extab       start:0x80006760 end:0x80006778
+	extabindex  start:0x80006C98 end:0x80006CA4
+
+auto_fn_80227E90_text:
+	extab       start:0x80006778 end:0x80006780
+	extabindex  start:0x80006CA4 end:0x80006CB0
+
+auto_fn_80227F08_text:
+	extab       start:0x80006780 end:0x80006788
+	extabindex  start:0x80006CB0 end:0x80006CBC
+
+auto_03_80227F88_text:
+
+__init_cpp_exceptions.cpp:
+	.sdata      start:0x806A6C78 end:0x806A7180
+
+auto_09_806A6C80_sdata:
+
+auto_03_802289B0_text:
+	.text       start:0x8022C934 end:0x802A3164
+
+auto_fn_802A3150_text:
+
+auto_03_802A3164_text:
+	.text       start:0x802A3164 end:0x802A9984
+
+auto_fn_802A9420_text:
+
+auto_03_802A9430_text:
+
+auto_fn_802A9970_text:
+
+auto_03_802A9984_text:
+	.text       start:0x802A9984 end:0x802AADD4
+
+auto_fn_802AADC0_text:
+
+auto_03_802AADD4_text:
+	.text       start:0x802AADD4 end:0x802AD404
+
+auto_fn_802AD3F0_text:
+
+auto_03_802AD404_text:
+	.text       start:0x802AD404 end:0x802B5D94
+
+auto_fn_802B5CF0_text:
+
+auto_03_802B5D94_text:
+	.text       start:0x802B5D94 end:0x80325700
+
+auto_fn_802BADEC_text:
+	extab       start:0x80006788 end:0x80006790
+	extabindex  start:0x80006CBC end:0x80006CC8
+
+auto_03_802BAE30_text:
+
+auto_fn_802BAE48_text:
+	extab       start:0x80006790 end:0x80006798
+	extabindex  start:0x80006CC8 end:0x80006CD4
+
+auto_fn_802BAEBC_text:
+	extab       start:0x80006798 end:0x800067A0
+	extabindex  start:0x80006CD4 end:0x80006CE0
+
+auto_fn_802BB0E4_text:
+	extab       start:0x800067A0 end:0x800067A8
+	extabindex  start:0x80006CE0 end:0x80006CEC
+
+auto_03_802BB39C_text:
+
+auto_fn_802BB3B0_text:
+	extab       start:0x800067A8 end:0x800067B0
+	extabindex  start:0x80006CEC end:0x80006CF8
+
+auto_fn_802BB68C_text:
+	extab       start:0x800067B0 end:0x800067B8
+	extabindex  start:0x80006CF8 end:0x80006D04
+
+auto_03_802BB73C_text:
+
+auto_fn_802BB75C_text:
+	extab       start:0x800067B8 end:0x800067C0
+	extabindex  start:0x80006D04 end:0x80006D10
+
+auto_fn_802BB7A0_text:
+	extab       start:0x800067C0 end:0x800067C8
+	extabindex  start:0x80006D10 end:0x80006D1C
+
+auto_03_802BB814_text:
+
+auto_fn_802BB844_text:
+	extab       start:0x800067C8 end:0x800067D0
+	extabindex  start:0x80006D1C end:0x80006D28
+
+auto_03_802BB90C_text:
+
+auto_fn_802BB99C_text:
+	extab       start:0x800067D0 end:0x800067D8
+	extabindex  start:0x80006D28 end:0x80006D34
+
+auto_fn_802BBB40_text:
+	extab       start:0x800067D8 end:0x800067E0
+	extabindex  start:0x80006D34 end:0x80006D40
+
+auto_fn_802BBCF0_text:
+	extab       start:0x800067E0 end:0x800067E8
+	extabindex  start:0x80006D40 end:0x80006D4C
+
+auto_03_802BBE54_text:
+
+auto_fn_802BBF04_text:
+	extab       start:0x800067E8 end:0x800067F0
+	extabindex  start:0x80006D4C end:0x80006D58
+
+auto_fn_802BBF9C_text:
+	extab       start:0x800067F0 end:0x800067F8
+	extabindex  start:0x80006D58 end:0x80006D64
+
+auto_fn_802BC044_text:
+	extab       start:0x800067F8 end:0x80006800
+	extabindex  start:0x80006D64 end:0x80006D70
+
+auto_fn_802BC18C_text:
+	extabindex  start:0x80006D70 end:0x80006D7C
+
+auto_fn_802BC2D4_text:
+	extab       start:0x80006808 end:0x80006810
+	extabindex  start:0x80006D7C end:0x80006D88
+
+auto_fn_802BC384_text:
+	extab       start:0x80006810 end:0x80006818
+	extabindex  start:0x80006D88 end:0x80006D94
+
+auto_fn_802BC5B0_text:
+	extab       start:0x80006818 end:0x80006820
+	extabindex  start:0x80006D94 end:0x80006DA0
+
+auto_fn_802BC7DC_text:
+	extab       start:0x80006820 end:0x80006828
+	extabindex  start:0x80006DA0 end:0x80006DAC
+
+auto_fn_802BC874_text:
+	extab       start:0x80006828 end:0x80006830
+	extabindex  start:0x80006DAC end:0x80006DB8
+
+auto_fn_802BCA10_text:
+	extab       start:0x80006830 end:0x80006838
+	extabindex  start:0x80006DB8 end:0x80006DC4
+
+auto_fn_802BCAA8_text:
+	extab       start:0x80006838 end:0x80006840
+	extabindex  start:0x80006DC4 end:0x80006DD0
+
+auto_fn_802BCC44_text:
+	extab       start:0x80006840 end:0x80006848
+	extabindex  start:0x80006DD0 end:0x80006DDC
+
+auto_fn_802BD42C_text:
+	extab       start:0x80006848 end:0x80006850
+	extabindex  start:0x80006DDC end:0x80006DE8
+
+auto_fn_802BD604_text:
+	extab       start:0x80006850 end:0x80006858
+	extabindex  start:0x80006DE8 end:0x80006DF4
+
+auto_fn_802BDEC4_text:
+	extab       start:0x80006858 end:0x80006860
+	extabindex  start:0x80006DF4 end:0x80006E00
+
+auto_fn_802BDF98_text:
+	extab       start:0x80006860 end:0x80006868
+	extabindex  start:0x80006E00 end:0x80006E0C
+
+auto_fn_802BE16C_text:
+	extab       start:0x80006868 end:0x80006870
+	extabindex  start:0x80006E0C end:0x80006E18
+
+auto_fn_802BE37C_text:
+	extab       start:0x80006870 end:0x80006878
+	extabindex  start:0x80006E18 end:0x80006E24
+
+auto_fn_802BE578_text:
+	extab       start:0x80006878 end:0x80006880
+	extabindex  start:0x80006E24 end:0x80006E30
+
+auto_fn_802BE5F0_text:
+	extab       start:0x80006880 end:0x80006888
+	extabindex  start:0x80006E30 end:0x80006E3C
+
+auto_fn_802BE6E8_text:
+	extab       start:0x80006888 end:0x80006890
+	extabindex  start:0x80006E3C end:0x80006E48
+
+auto_03_802BE754_text:
+
+auto_fn_802BE7CC_text:
+	extab       start:0x80006890 end:0x80006898
+	extabindex  start:0x80006E48 end:0x80006E54
+
+auto_fn_802BE97C_text:
+	extab       start:0x80006898 end:0x800068A0
+	extabindex  start:0x80006E54 end:0x80006E60
+
+auto_fn_802BEA54_text:
+	extab       start:0x800068A0 end:0x800068A8
+	extabindex  start:0x80006E60 end:0x80006E6C
+
+auto_fn_802BEB00_text:
+	extab       start:0x800068A8 end:0x800068B0
+	extabindex  start:0x80006E6C end:0x80006E78
+
+auto_03_802BEBF0_text:
+
+auto_fn_802BEC74_text:
+	extab       start:0x800068B0 end:0x800068B8
+	extabindex  start:0x80006E78 end:0x80006E84
+
+auto_fn_802BED98_text:
+	extab       start:0x800068B8 end:0x800068C0
+	extabindex  start:0x80006E84 end:0x80006E90
+
+auto_fn_802BEE6C_text:
+	extab       start:0x800068C0 end:0x800068C8
+	extabindex  start:0x80006E90 end:0x80006E9C
+
+auto_fn_802BF200_text:
+	extab       start:0x800068C8 end:0x800068D0
+	extabindex  start:0x80006E9C end:0x80006EA8
+
+auto_fn_802BF334_text:
+	extab       start:0x800068D0 end:0x800068D8
+	extabindex  start:0x80006EA8 end:0x80006EB4
+
+auto_fn_802BF5C4_text:
+	extab       start:0x800068D8 end:0x800068E0
+	extabindex  start:0x80006EB4 end:0x80006EC0
+
+auto_03_802BF7A0_text:
+
+auto_fn_802BF7B0_text:
+	extab       start:0x800068E0 end:0x800068E8
+	extabindex  start:0x80006EC0 end:0x80006ECC
+
+auto_fn_802BFB88_text:
+	extab       start:0x800068E8 end:0x800068F0
+	extabindex  start:0x80006ECC end:0x80006ED8
+
+auto_fn_802BFBCC_text:
+	extab       start:0x800068F0 end:0x800068F8
+	extabindex  start:0x80006ED8 end:0x80006EE4
+
+auto_03_802BFBF0_text:
+
+auto_fn_802BFC38_text:
+	extab       start:0x800068F8 end:0x80006900
+	extabindex  start:0x80006EE4 end:0x80006EF0
+
+auto_03_802BFC80_text:
+
+auto_fn_802BFCA4_text:
+	extab       start:0x80006900 end:0x80006908
+	extabindex  start:0x80006EF0 end:0x80006EFC
+
+auto_fn_802BFCEC_text:
+	extab       start:0x80006908 end:0x80006910
+	extabindex  start:0x80006EFC end:0x80006F08
+
+auto_03_802BFD34_text:
+
+auto_fn_802BFD58_text:
+	extab       start:0x80006910 end:0x80006918
+	extabindex  start:0x80006F08 end:0x80006F14
+
+auto_03_802BFDA0_text:
+
+auto_fn_802BFE0C_text:
+	extab       start:0x80006918 end:0x80006920
+	extabindex  start:0x80006F14 end:0x80006F20
+
+auto_fn_802BFE5C_text:
+	extab       start:0x80006920 end:0x80006928
+	extabindex  start:0x80006F20 end:0x80006F2C
+
+auto_fn_802BFEA4_text:
+	extab       start:0x80006928 end:0x80006930
+	extabindex  start:0x80006F2C end:0x80006F38
+
+auto_03_802BFEEC_text:
+
+auto_fn_802BFF24_text:
+	extab       start:0x80006930 end:0x80006938
+	extabindex  start:0x80006F38 end:0x80006F44
+
+auto_fn_802C0058_text:
+	extab       start:0x80006938 end:0x80006940
+	extabindex  start:0x80006F44 end:0x80006F50
+
+auto_fn_802C00FC_text:
+	extab       start:0x80006940 end:0x80006948
+	extabindex  start:0x80006F50 end:0x80006F5C
+
+auto_fn_802C0344_text:
+	extab       start:0x80006948 end:0x80006950
+	extabindex  start:0x80006F5C end:0x80006F68
+
+auto_fn_802C03F8_text:
+	extab       start:0x80006950 end:0x80006958
+	extabindex  start:0x80006F68 end:0x80006F74
+
+auto_fn_802C0504_text:
+	extab       start:0x80006958 end:0x80006960
+	extabindex  start:0x80006F74 end:0x80006F80
+
+auto_fn_802C0578_text:
+	extab       start:0x80006960 end:0x80006968
+	extabindex  start:0x80006F80 end:0x80006F8C
+
+auto_fn_802C0614_text:
+	extab       start:0x80006968 end:0x80006970
+	extabindex  start:0x80006F8C end:0x80006F98
+
+auto_fn_802C06A4_text:
+	extab       start:0x80006970 end:0x80006978
+	extabindex  start:0x80006F98 end:0x80006FA4
+
+auto_fn_802C07E4_text:
+	extab       start:0x80006978 end:0x80006980
+	extabindex  start:0x80006FA4 end:0x80006FB0
+
+auto_fn_802C0A8C_text:
+	extab       start:0x80006980 end:0x80006988
+	extabindex  start:0x80006FB0 end:0x80006FBC
+
+auto_fn_802C0B74_text:
+	extab       start:0x80006988 end:0x80006990
+	extabindex  start:0x80006FBC end:0x80006FC8
+
+auto_fn_802C0C48_text:
+	extab       start:0x80006990 end:0x80006998
+	extabindex  start:0x80006FC8 end:0x80006FD4
+
+auto_03_802C0CE4_text:
+
+auto_fn_802C0D44_text:
+	extab       start:0x80006998 end:0x800069A0
+	extabindex  start:0x80006FD4 end:0x80006FE0
+
+auto_fn_802C0F48_text:
+	extab       start:0x800069A0 end:0x800069A8
+	extabindex  start:0x80006FE0 end:0x80006FEC
+
+auto_fn_802C115C_text:
+	extab       start:0x800069A8 end:0x800069B0
+	extabindex  start:0x80006FEC end:0x80006FF8
+
+auto_fn_802C1264_text:
+	extab       start:0x800069B0 end:0x800069B8
+	extabindex  start:0x80006FF8 end:0x80007004
+
+auto_fn_802C1358_text:
+	extab       start:0x800069B8 end:0x800069C0
+	extabindex  start:0x80007004 end:0x80007010
+
+auto_fn_802C1404_text:
+	extab       start:0x800069C0 end:0x800069C8
+	extabindex  start:0x80007010 end:0x8000701C
+
+auto_fn_802C1464_text:
+	extab       start:0x800069C8 end:0x800069D0
+	extabindex  start:0x8000701C end:0x80007028
+
+auto_fn_802C1878_text:
+	extab       start:0x800069D0 end:0x800069D8
+	extabindex  start:0x80007028 end:0x80007034
+
+auto_fn_802C18C8_text:
+	extab       start:0x800069D8 end:0x800069E0
+	extabindex  start:0x80007034 end:0x80007040
+
+auto_fn_802C1A60_text:
+	extab       start:0x800069E0 end:0x800069E8
+	extabindex  start:0x80007040 end:0x8000704C
+
+auto_fn_802C1B10_text:
+	extab       start:0x800069E8 end:0x800069F0
+	extabindex  start:0x8000704C end:0x80007058
+
+auto_fn_802C1E24_text:
+	extab       start:0x800069F0 end:0x800069F8
+	extabindex  start:0x80007058 end:0x80007064
+
+auto_fn_802C1E8C_text:
+	extab       start:0x800069F8 end:0x80006A00
+	extabindex  start:0x80007064 end:0x80007070
+
+auto_fn_802C242C_text:
+	extab       start:0x80006A00 end:0x80006A08
+	extabindex  start:0x80007070 end:0x8000707C
+
+auto_fn_802C246C_text:
+	extab       start:0x80006A08 end:0x80006A10
+	extabindex  start:0x8000707C end:0x80007088
+
+auto_fn_802C2548_text:
+	extab       start:0x80006A10 end:0x80006A18
+	extabindex  start:0x80007088 end:0x80007094
+
+auto_fn_802C259C_text:
+	extab       start:0x80006A18 end:0x80006A20
+	extabindex  start:0x80007094 end:0x800070A0
+
+auto_03_802C25DC_text:
+
+auto_fn_802C25EC_text:
+	extab       start:0x80006A20 end:0x80006A28
+	extabindex  start:0x800070A0 end:0x800070AC
+
+auto_fn_802C262C_text:
+	extab       start:0x80006A28 end:0x80006A30
+	extabindex  start:0x800070AC end:0x800070B8
+
+auto_fn_802C2738_text:
+	extab       start:0x80006A30 end:0x80006A38
+	extabindex  start:0x800070B8 end:0x800070C4
+
+auto_fn_802C2778_text:
+	extab       start:0x80006A38 end:0x80006A40
+	extabindex  start:0x800070C4 end:0x800070D0
+
+auto_fn_802C29B4_text:
+	extab       start:0x80006A40 end:0x80006A48
+	extabindex  start:0x800070D0 end:0x800070DC
+
+auto_fn_802C2A30_text:
+	extab       start:0x80006A48 end:0x80006A50
+	extabindex  start:0x800070DC end:0x800070E8
+
+auto_fn_802C2B14_text:
+	extab       start:0x80006A50 end:0x80006A58
+	extabindex  start:0x800070E8 end:0x800070F4
+
+auto_fn_802C2E38_text:
+	extab       start:0x80006A58 end:0x80006A60
+	extabindex  start:0x800070F4 end:0x80007100
+
+auto_fn_802C3014_text:
+	extab       start:0x80006A60 end:0x80006A68
+	extabindex  start:0x80007100 end:0x8000710C
+
+auto_fn_802C3264_text:
+	extab       start:0x80006A68 end:0x80006A70
+	extabindex  start:0x8000710C end:0x80007118
+
+auto_fn_802C344C_text:
+	extab       start:0x80006A70 end:0x80006A78
+	extabindex  start:0x80007118 end:0x80007124
+
+auto_fn_802C3638_text:
+	extab       start:0x80006A78 end:0x80006A80
+	extabindex  start:0x80007124 end:0x80007130
+
+auto_fn_802C37C0_text:
+	extab       start:0x80006A80 end:0x80006A88
+	extabindex  start:0x80007130 end:0x8000713C
+
+auto_fn_802C39D0_text:
+	extab       start:0x80006A88 end:0x80006A90
+	extabindex  start:0x8000713C end:0x80007148
+
+auto_fn_802C3B58_text:
+	extab       start:0x80006A90 end:0x80006A98
+	extabindex  start:0x80007148 end:0x80007154
+
+auto_fn_802C3EF0_text:
+	extab       start:0x80006A98 end:0x80006AA0
+	extabindex  start:0x80007154 end:0x80007160
+
+auto_fn_802C4228_text:
+	extab       start:0x80006AA0 end:0x80006AA8
+	extabindex  start:0x80007160 end:0x8000716C
+
+auto_fn_802C42F4_text:
+	extab       start:0x80006AA8 end:0x80006AB0
+	extabindex  start:0x8000716C end:0x80007178
+
+auto_fn_802C46C8_text:
+	extab       start:0x80006AB0 end:0x80006AB8
+	extabindex  start:0x80007178 end:0x80007184
+
+auto_fn_802C4850_text:
+	extab       start:0x80006AB8 end:0x80006AC0
+	extabindex  start:0x80007184 end:0x80007190
+
+auto_fn_802C48DC_text:
+	extab       start:0x80006AC0 end:0x80006AC8
+	extabindex  start:0x80007190 end:0x8000719C
+
+auto_fn_802C4A7C_text:
+	extab       start:0x80006AC8 end:0x80006AD0
+	extabindex  start:0x8000719C end:0x800071A8
+
+auto_fn_802C4ABC_text:
+	extab       start:0x80006AD0 end:0x80006AD8
+	extabindex  start:0x800071A8 end:0x800071B4
+
+auto_fn_802C4C04_text:
+	extab       start:0x80006AD8 end:0x80006AE0
+	extabindex  start:0x800071B4 end:0x800071C0
+
+auto_fn_802C4C44_text:
+	extab       start:0x80006AE0 end:0x80006AE8
+	extabindex  start:0x800071C0 end:0x800071CC
+
+auto_fn_802C4CE0_text:
+	extab       start:0x80006AE8 end:0x80006AF0
+	extabindex  start:0x800071CC end:0x800071D8
+
+auto_fn_802C4DCC_text:
+	extab       start:0x80006AF0 end:0x80006AF8
+	extabindex  start:0x800071D8 end:0x800071E4
+
+auto_03_802C4F38_text:
+
+auto_fn_802C4F4C_text:
+	extab       start:0x80006AF8 end:0x80006B00
+	extabindex  start:0x800071E4 end:0x800071F0
+
+auto_fn_802C5268_text:
+	extab       start:0x80006B00 end:0x80006B08
+	extabindex  start:0x800071F0 end:0x800071FC
+
+auto_03_802C54B8_text:
+
+auto_fn_802C55A0_text:
+	extab       start:0x80006B08 end:0x80006B10
+	extabindex  start:0x800071FC end:0x80007208
+
+auto_fn_802C5650_text:
+	extab       start:0x80006B10 end:0x80006B18
+	extabindex  start:0x80007208 end:0x80007214
+
+auto_fn_802C57F4_text:
+	extab       start:0x80006B18 end:0x80006B20
+	extabindex  start:0x80007214 end:0x80007220
+
+auto_fn_802C5908_text:
+	extab       start:0x80006B20 end:0x80006B28
+	extabindex  start:0x80007220 end:0x8000722C
+
+auto_fn_802C5C94_text:
+	extab       start:0x80006B28 end:0x80006B30
+	extabindex  start:0x8000722C end:0x80007238
+
+auto_03_802C5D88_text:
+
+auto_fn_802C5E04_text:
+	extab       start:0x80006B30 end:0x80006B38
+	extabindex  start:0x80007238 end:0x80007244
+
+auto_03_802C5E28_text:
+
+auto_fn_802C5E84_text:
+	extab       start:0x80006B38 end:0x80006B40
+	extabindex  start:0x80007244 end:0x80007250
+
+auto_03_802C5ECC_text:
+
+auto_fn_802C5EF0_text:
+	extab       start:0x80006B40 end:0x80006B48
+	extabindex  start:0x80007250 end:0x8000725C
+
+auto_fn_802C5F38_text:
+	extab       start:0x80006B48 end:0x80006B50
+	extabindex  start:0x8000725C end:0x80007268
+
+auto_03_802C5F80_text:
+
+auto_fn_802C5FA4_text:
+	extab       start:0x80006B50 end:0x80006B58
+	extabindex  start:0x80007268 end:0x80007274
+
+auto_03_802C5FEC_text:
+
+auto_fn_802C6058_text:
+	extab       start:0x80006B58 end:0x80006B60
+	extabindex  start:0x80007274 end:0x80007280
+
+auto_fn_802C60A0_text:
+	extab       start:0x80006B60 end:0x80006B68
+	extabindex  start:0x80007280 end:0x8000728C
+
+auto_fn_802C60F0_text:
+	extab       start:0x80006B68 end:0x80006B70
+	extabindex  start:0x8000728C end:0x80007298
+
+auto_fn_802C6138_text:
+	extab       start:0x80006B70 end:0x80006B78
+	extabindex  start:0x80007298 end:0x800072A4
+
+auto_03_802C6180_text:
+
+auto_fn_802C6224_text:
+	extab       start:0x80006B78 end:0x80006B80
+	extabindex  start:0x800072A4 end:0x800072B0
+
+auto_03_802C62D4_text:
+
+auto_fn_802C62EC_text:
+	extab       start:0x80006B80 end:0x80006B88
+	extabindex  start:0x800072B0 end:0x800072BC
+
+auto_fn_802C638C_text:
+	extab       start:0x80006B88 end:0x80006B90
+	extabindex  start:0x800072BC end:0x800072C8
+
+auto_fn_802C63C8_text:
+	extab       start:0x80006B90 end:0x80006B98
+	extabindex  start:0x800072C8 end:0x800072D4
+
+auto_fn_802C678C_text:
+	extab       start:0x80006B98 end:0x80006BA0
+	extabindex  start:0x800072D4 end:0x800072E0
+
+auto_fn_802C6888_text:
+	extab       start:0x80006BA0 end:0x80006BA8
+	extabindex  start:0x800072E0 end:0x800072EC
+
+auto_03_802C69B4_text:
+
+auto_fn_802C69B8_text:
+	extab       start:0x80006BA8 end:0x80006BB0
+	extabindex  start:0x800072EC end:0x800072F8
+
+auto_fn_802C6A90_text:
+	extab       start:0x80006BB0 end:0x80006BB8
+	extabindex  start:0x800072F8 end:0x80007304
+
+auto_03_802C6E20_text:
+
+auto_fn_802C7078_text:
+	extab       start:0x80006BB8 end:0x80006BC0
+	extabindex  start:0x80007304 end:0x80007310
+
+auto_03_802C7160_text:
+
+auto_fn_802C719C_text:
+	extab       start:0x80006BC0 end:0x80006BC8
+	extabindex  start:0x80007310 end:0x8000731C
+
+auto_fn_802C71F4_text:
+	extab       start:0x80006BC8 end:0x80006BD0
+	extabindex  start:0x8000731C end:0x80007328
+
+auto_fn_802C7494_text:
+	extab       start:0x80006BD0 end:0x80006BD8
+	extabindex  start:0x80007328 end:0x80007334
+
+auto_fn_802C7778_text:
+	extab       start:0x80006BD8 end:0x80006BE0
+	extabindex  start:0x80007334 end:0x80007340
+
+auto_fn_802C77D4_text:
+	extab       start:0x80006BE0 end:0x80006BE8
+	extabindex  start:0x80007340 end:0x8000734C
+
+auto_fn_802C7918_text:
+	extab       start:0x80006BE8 end:0x80006BF0
+	extabindex  start:0x8000734C end:0x80007358
+
+auto_fn_802C7B10_text:
+	extab       start:0x80006BF0 end:0x80006BF8
+	extabindex  start:0x80007358 end:0x80007364
+
+auto_03_802C7CC0_text:
+
+auto_fn_802C7CC4_text:
+	extab       start:0x80006BF8 end:0x80006C00
+	extabindex  start:0x80007364 end:0x80007370
+
+auto_03_802C7E8C_text:
+
+auto_fn_802C7FBC_text:
+	extab       start:0x80006C00 end:0x80006C08
+	extabindex  start:0x80007370 end:0x8000737C
+
+auto_03_802C8144_text:
+
+auto_fn_802C8160_text:
+	extab       start:0x80006C08 end:0x80006C10
+	extabindex  start:0x8000737C end:0x80007388
+
+auto_fn_802C8250_text:
+	extab       start:0x80006C10 end:0x80006C18
+	extabindex  start:0x80007388 end:0x80007394
+
+auto_fn_802C8DD8_text:
+	extab       start:0x80006C18 end:0x80006C20
+	extabindex  start:0x80007394 end:0x800073A0
+
+auto_fn_802C8EE0_text:
+	extab       start:0x80006C20 end:0x80006C28
+	extabindex  start:0x800073A0 end:0x800073AC
+
+auto_fn_802C8FE0_text:
+	extab       start:0x80006C28 end:0x80006C30
+	extabindex  start:0x800073AC end:0x800073B8
+
+auto_fn_802C92B8_text:
+	extab       start:0x80006C30 end:0x80006C38
+	extabindex  start:0x800073B8 end:0x800073C4
+
+auto_03_802C9360_text:
+
+auto_fn_802C939C_text:
+	extab       start:0x80006C38 end:0x80006C40
+	extabindex  start:0x800073C4 end:0x800073D0
+
+auto_fn_802C9494_text:
+	extab       start:0x80006C40 end:0x80006C48
+	extabindex  start:0x800073D0 end:0x800073DC
+
+auto_03_802C94F0_text:
+
+auto_fn_802C9528_text:
+	extab       start:0x80006C48 end:0x80006C50
+	extabindex  start:0x800073DC end:0x800073E8
+
+auto_fn_802C9658_text:
+	extab       start:0x80006C50 end:0x80006C58
+	extabindex  start:0x800073E8 end:0x800073F4
+
+auto_fn_802C9920_text:
+	extab       start:0x80006C58 end:0x80006C60
+	extabindex  start:0x800073F4 end:0x80007400
+
+auto_03_802C999C_text:
+
+auto_fn_802C99A8_text:
+	extab       start:0x80006C60 end:0x80006C80
+	extabindex  start:0x80007400 end:0x80007440
+
+auto_03_802C9AF4_text:
+
+auto_00_80004000_init:
+	.init       start:0x80004000 end:0x80006740
+	extab       start:0x80006800 end:0x80006808
+	.text       start:0x80007440 end:0x8022C934
+	.ctors      start:0x80325700 end:0x80325840
+	.dtors      start:0x80325840 end:0x80325860
+	.rodata     start:0x80325870 end:0x8032E2C0
+	.data       start:0x8032E2E4 end:0x805BAB80
+	.bss        start:0x805BAB88 end:0x806A6C20
+	.sdata      start:0x806A6C20 end:0x806A6C78
+	.sbss       start:0x806A7180 end:0x806A7C20
+	.sdata2     start:0x806A7C38 end:0x806AD300
+	.sbss2      start:0x806AD300 end:0x00000000
