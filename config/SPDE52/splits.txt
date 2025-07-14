@@ -12,14 +12,13 @@ Sections:
 	.sbss       type:bss align:32
 	.sdata2     type:rodata align:8
 	.sbss2      type:bss align:16
+  
+DecompStart/src/fn_800A1CA0.c:
+	.text       start:0x800A1CA0 end:0x800A1CA4
 
 Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
-        .text       start:0x80228940 end:0x802289B0
+ .text       start:0x80228940 end:0x802289B0
         .ctors      start:0x80325700 end:0x80325704 rename:.ctors$10
         .dtors      start:0x80325840 end:0x80325844 rename:.dtors$10
         .dtors      start:0x80325844 end:0x80325848 rename:.dtors$15
         .sdata      start:0x806A6C78 end:0x806A6C80
-
-DecompStart/src/fn_800A1CA0.c:
-        .text       start:0x800A1CA0 end:0x800A1CA4
-
