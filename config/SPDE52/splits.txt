@@ -23,3 +23,6 @@ Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 Runtime.PPCEABI.H/memset.c:
         .init       start:0x80004350 end:0x80004380
 
+Runtime.PPCEABI.H/my_flush_cache.c:
+        .init       start:0x80006480 end:0x800064C4
+

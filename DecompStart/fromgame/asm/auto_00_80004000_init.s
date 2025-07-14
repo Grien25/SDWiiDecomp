@@ -2468,6 +2468,7 @@
 /* 800064BC 000025BC  7C D0 FB A6 */	mtspr HID0, r6
 /* 800064C0 000025C0  4E 80 00 20 */	blr
 .endfn __my_flush_cache
+# __my_flush_cache has now been decompiled in src/Runtime.PPCEABI.H/my_flush_cache.c
 
 # .init:0x24C4 | 0x800064C4 | size: 0xC
 .fn gap_00_800064C4_init, global
