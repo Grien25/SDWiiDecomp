@@ -1,4 +1,7 @@
-#include <stddef.h>
+#ifndef _MSL_COMMON_SIZE_T
+#define _MSL_COMMON_SIZE_T
+typedef unsigned int size_t;
+#endif
 
 void* memcpy(void* dst, const void* src, size_t n) {
     unsigned char* d = dst;
