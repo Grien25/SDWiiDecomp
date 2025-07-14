@@ -2,6 +2,10 @@
 
 This file provides guidance for agents contributing to this repository. Follow these steps when the user asks you to decompile functions.
 
+## Project Goal
+
+The overarching objective of the repository is **match making** decompilation. Our code should mirror what the Beenox Spider-Man developers originally wrote as closely as possible. Strive for exact matches in both behavior and structure whenever feasible.
+
 ## Reference Documentation
 
 - **docs/getting_started.md** – Overview of the build workflow.
