@@ -1,0 +1,9 @@
+[submodule "DecompReference/key"]
+	path = DecompReference/key
+	url = https://github.com/Grien25/key.git
+[submodule "DecompReference/rb3"]
+	path = DecompReference/rb3
+	url = https://github.com/Grien25/rb3.git
+[submodule "DecompReference/mkw"]
+	path = DecompReference/mkw
+	url = https://github.com/Grien25/mkw.git
