@@ -295,6 +295,7 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
             Object(Matching, "Runtime.PPCEABI.H/memset.c"),
+            Object(Matching, "Runtime.PPCEABI.H/my_flush_cache.c"),
         ],
     },
 ]
