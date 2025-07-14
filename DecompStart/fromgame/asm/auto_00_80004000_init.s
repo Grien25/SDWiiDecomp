@@ -271,6 +271,7 @@
 /* 80004378 00000478  38 21 00 10 */	addi r1, r1, 0x10
 /* 8000437C 0000047C  4E 80 00 20 */	blr
 .endfn memset
+# memset has now been decompiled in src/Runtime.PPCEABI.H/memset.c
 # .init:0x380 | 0x80004380 | size: 0x0
 .sym gTRKInterruptVectorTable, global
 

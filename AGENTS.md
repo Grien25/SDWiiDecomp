@@ -21,5 +21,6 @@ Read these documents before making major edits or when unsure about the process.
 5. Add the symbol to `symbols.txt` if needed.
 6. Run `python configure.py` and then `ninja` to build.
 7. Use `objdiff` to confirm that the compiled object matches.
+8. In the original `.s` file, add a comment below the `endfn` line noting that the function has been decompiled.
 
 Repeat for additional functions, keeping each file small and focused.
