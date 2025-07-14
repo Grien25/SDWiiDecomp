@@ -296,6 +296,17 @@ config.libs = [
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
         ],
     },
+    {
+        "lib": "fromgame",
+        "mw_version": config.linker_version,
+        "cflags": cflags_base,
+        "progress_category": "game",
+        "src_dir": "DecompStart/src",
+        "asm_dir": "DecompStart/fromgame/asm",
+        "objects": [
+            Object(Equivalent, "fromgame/auto_03_800A1CA0_text.c"),
+        ],
+    },
 ]
 
 
