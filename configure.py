@@ -170,6 +170,7 @@ config.asflags = [
     "-mgekko",
     "--strip-local-absolute",
     "-I include",
+    "-I DecompStart/include",
     f"-I build/{config.version}/include",
     f"--defsym BUILD_VERSION={version_num}",
 ]
@@ -211,6 +212,7 @@ cflags_base = [
     "-str reuse",
     "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
     "-i include",
+    "-i DecompStart/include",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
     f"-DVERSION_{config.version}",
@@ -304,7 +306,7 @@ config.libs = [
         "src_dir": "DecompStart/src",
         "asm_dir": "DecompStart/fromgame/asm",
         "objects": [
-            Object(Equivalent, "fromgame/auto_03_800A1CA0_text.c"),
+            Object(Equivalent, "auto_03_800A1CA0_text.c"),
         ],
     },
 ]

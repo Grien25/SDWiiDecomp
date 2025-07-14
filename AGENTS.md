@@ -22,7 +22,8 @@ Read these documents before making major edits or when unsure about the process.
 2. Look in `DecompReference/` for similar implementations.
 3. Create or update a source file in `src/` matching the function. For early
    work placed under `DecompStart`, place C or C++ files in
-   `DecompStart/src` and any headers in `DecompStart/include`.
+   `DecompStart/src` and any headers (such as `macros.h`) in
+   `DecompStart/include`.
 4. Update `configure.py` and `splits.txt` to point to the new file.
 5. Add the symbol to `symbols.txt` if needed.
 6. Run `python configure.py` and then `ninja` to build.
