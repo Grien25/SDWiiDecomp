@@ -2,7 +2,10 @@
 #define _MSL_COMMON_SIZE_T
 typedef unsigned int size_t;
 #endif
-#include <stdint.h>
+
+typedef unsigned int u32;
+typedef unsigned long long u64;
+typedef unsigned int uintptr_t;
 
 void* memcpy(void* dst, const void* src, size_t n) {
     unsigned char* d = (unsigned char*)dst;
@@ -29,10 +32,10 @@ void* memcpy(void* dst, const void* src, size_t n) {
             while (n >= 32) {
                 d -= 32;
                 s -= 32;
-                ((uint64_t*)d)[0] = ((const uint64_t*)s)[0];
-                ((uint64_t*)d)[1] = ((const uint64_t*)s)[1];
-                ((uint64_t*)d)[2] = ((const uint64_t*)s)[2];
-                ((uint64_t*)d)[3] = ((const uint64_t*)s)[3];
+                ((u64*)d)[0] = ((const u64*)s)[0];
+                ((u64*)d)[1] = ((const u64*)s)[1];
+                ((u64*)d)[2] = ((const u64*)s)[2];
+                ((u64*)d)[3] = ((const u64*)s)[3];
                 n -= 32;
             }
             while (n--) {
@@ -54,10 +57,10 @@ void* memcpy(void* dst, const void* src, size_t n) {
             while (n >= 16) {
                 d -= 16;
                 s -= 16;
-                ((uint32_t*)d)[0] = ((const uint32_t*)s)[0];
-                ((uint32_t*)d)[1] = ((const uint32_t*)s)[1];
-                ((uint32_t*)d)[2] = ((const uint32_t*)s)[2];
-                ((uint32_t*)d)[3] = ((const uint32_t*)s)[3];
+                ((u32*)d)[0] = ((const u32*)s)[0];
+                ((u32*)d)[1] = ((const u32*)s)[1];
+                ((u32*)d)[2] = ((const u32*)s)[2];
+                ((u32*)d)[3] = ((const u32*)s)[3];
                 n -= 16;
             }
             while (n--) {
@@ -79,10 +82,10 @@ void* memcpy(void* dst, const void* src, size_t n) {
                 }
             }
             while (n >= 32) {
-                ((uint64_t*)d)[0] = ((const uint64_t*)s)[0];
-                ((uint64_t*)d)[1] = ((const uint64_t*)s)[1];
-                ((uint64_t*)d)[2] = ((const uint64_t*)s)[2];
-                ((uint64_t*)d)[3] = ((const uint64_t*)s)[3];
+                ((u64*)d)[0] = ((const u64*)s)[0];
+                ((u64*)d)[1] = ((const u64*)s)[1];
+                ((u64*)d)[2] = ((const u64*)s)[2];
+                ((u64*)d)[3] = ((const u64*)s)[3];
                 d += 32;
                 s += 32;
                 n -= 32;
@@ -102,10 +105,10 @@ void* memcpy(void* dst, const void* src, size_t n) {
                 }
             }
             while (n >= 16) {
-                ((uint32_t*)d)[0] = ((const uint32_t*)s)[0];
-                ((uint32_t*)d)[1] = ((const uint32_t*)s)[1];
-                ((uint32_t*)d)[2] = ((const uint32_t*)s)[2];
-                ((uint32_t*)d)[3] = ((const uint32_t*)s)[3];
+                ((u32*)d)[0] = ((const u32*)s)[0];
+                ((u32*)d)[1] = ((const u32*)s)[1];
+                ((u32*)d)[2] = ((const u32*)s)[2];
+                ((u32*)d)[3] = ((const u32*)s)[3];
                 d += 16;
                 s += 16;
                 n -= 16;
