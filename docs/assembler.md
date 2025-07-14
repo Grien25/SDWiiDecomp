@@ -19,12 +19,13 @@ Run `python configure.py` followed by `ninja` to assemble the file.
 
 ## Viewing with objdiff
 
-After the build completes, the new object will appear in
-`build/[GAMEID]/`. Use `objdiff` to compare it against the original object:
+After the build completes, the new object will appear under
+`build/[GAMEID]/obj`. Use `objdiff` to compare it against the original object:
 
 ```
-objdiff build/[GAMEID]/example.o orig/[GAMEID]/example.o
+objdiff build/[GAMEID]/obj/example.o orig/[GAMEID]/example.o
 ```
 
-`configure.py` generates `objdiff.json` with the assembler flags, so objdiff can
-assemble the source and show accurate diffs.
+`configure.py` generates `objdiff.json` with the assembler flags and sets
+`SDWiiDecomp/build/[GAMEID]/obj` as the base path, allowing objdiff to assemble
+the source and show accurate diffs.

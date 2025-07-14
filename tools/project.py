@@ -1544,8 +1544,9 @@ def generate_objdiff_config(
             return
 
         src_exists = obj.src_path is not None and obj.src_path.exists()
+        base_dir = config.build_dir / str(config.version) / "obj"
+        unit_config["base_path"] = base_dir
         if src_exists:
-            unit_config["base_path"] = obj.src_obj_path
             unit_config["metadata"]["source_path"] = obj.src_path
 
         # Filter out include directories

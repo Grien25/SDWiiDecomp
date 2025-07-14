@@ -171,9 +171,7 @@ config.asflags = [
     "--strip-local-absolute",
     "-I include",
     "-I DecompStart/include",
-    "-I DecompStart/src",
     f"-I build/{config.version}/include",
-    f"-I build/{config.version}/src",
     f"--defsym BUILD_VERSION={version_num}",
     f"--defsym VERSION_{config.version}",
 ]
