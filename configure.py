@@ -211,7 +211,6 @@ cflags_base = [
     "-str reuse",
     "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
     "-i include",
-    "-i DecompStart/include",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
     f"-DVERSION_{config.version}",
@@ -295,15 +294,6 @@ config.libs = [
         "objects": [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
-        ],
-    },
-    {
-        "lib": "DecompStart",
-        "mw_version": config.linker_version,
-        "cflags": cflags_base,
-        "progress_category": "game",
-        "objects": [
-            Object(Equivalent, "DecompStart/src/fn_800A1CA0.c"),
         ],
     },
 ]
