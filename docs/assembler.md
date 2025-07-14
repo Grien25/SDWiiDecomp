@@ -1,8 +1,8 @@
 # Assembly sources
 
 The project supports building standalone PowerPC assembly files. The assembler
-flags in `configure.py` list all necessary include and source directories so that
-both the build system and `objdiff` can locate headers and generated files.
+flags in `configure.py` list all necessary include directories so that both the
+build system and `objdiff` can locate headers and generated files.
 
 ## Adding a `.s` file
 
