@@ -20,5 +20,3 @@ Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
         .dtors      start:0x80325844 end:0x80325848 rename:.dtors$15
         .sdata      start:0x806A6C78 end:0x806A6C80
 
-Runtime.PPCEABI.H/memory.c:
-        .init       start:0x80004000 end:0x80004350
