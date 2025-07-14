@@ -2617,3 +2617,4 @@
 /* 8000667C 0000277C  4C 00 01 2C */	isync
 /* 80006680 00002780  4E 80 00 20 */	blr
 .endfn __flush_cache
+# __flush_cache has been decompiled to src/runtime/__ppc_eabi_init.c
