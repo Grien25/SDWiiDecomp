@@ -1,4 +1,4 @@
-#include "macros.inc"
+#include "macros.h"
 
 void fn_8001CB64(void);
 
