@@ -20,3 +20,6 @@ Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
         .dtors      start:0x80325844 end:0x80325848 rename:.dtors$15
         .sdata      start:0x806A6C78 end:0x806A6C80
 
+DecompStart/src/fn_800A1CA0.c:
+        .text       start:0x800A1CA0 end:0x800A1CA4
+
