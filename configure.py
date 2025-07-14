@@ -170,7 +170,6 @@ config.asflags = [
     "-mgekko",
     "--strip-local-absolute",
     "-I include",
-    "-I DecompStart/include",
     f"-I build/{config.version}/include",
     f"--defsym BUILD_VERSION={version_num}",
 ]
@@ -212,7 +211,6 @@ cflags_base = [
     "-str reuse",
     "-multibyte",  # For Wii compilers, replace with `-enc SJIS`
     "-i include",
-    "-i DecompStart/include",
     f"-i build/{config.version}/include",
     f"-DBUILD_VERSION={version_num}",
     f"-DVERSION_{config.version}",
@@ -296,18 +294,6 @@ config.libs = [
         "objects": [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
-        ],
-    },
-    {
-        "lib": "fromgame",
-        "mw_version": config.linker_version,
-        "cflags": cflags_base,
-        "progress_category": "game",
-        "src_dir": "DecompStart/src",
-        "asm_dir": "DecompStart/fromgame/asm",
-        "objects": [
-            Object(Equivalent, "auto_03_800A1CA0_text.c"),
-            Object(Matching, "auto_03_800A1CA4_text.s"),
         ],
     },
 ]
