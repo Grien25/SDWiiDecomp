@@ -18,6 +18,7 @@ General:
 
 - [Common BSS](docs/common_bss.md)
 - [`.comment` section](docs/comment_section.md)
+- [Assembler](docs/assembler.md)
 
 References
 --------
