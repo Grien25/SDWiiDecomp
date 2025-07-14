@@ -23,3 +23,6 @@ Runtime.PPCEABI.H/__init_cpp_exceptions.cpp:
 auto_03_800A1CA0_text.c:
         .text       start:0x800A1CA0 end:0x800A1CA4
 
+auto_03_800A1CA4_text.s:
+        .text       start:0x800A1CA4 end:0x800A4C08
+

@@ -307,6 +307,7 @@ config.libs = [
         "asm_dir": "DecompStart/fromgame/asm",
         "objects": [
             Object(Equivalent, "auto_03_800A1CA0_text.c"),
+            Object(Matching, "auto_03_800A1CA4_text.s"),
         ],
     },
 ]
