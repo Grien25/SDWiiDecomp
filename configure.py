@@ -294,7 +294,10 @@ config.libs = [
         "objects": [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
+<<<<<<< Updated upstream
             Object(NonMatching, "DecompStart/src/C++_Runtime/__ppc_eabi_init.c"),
+=======
+>>>>>>> Stashed changes
         ],
     },
 ]
