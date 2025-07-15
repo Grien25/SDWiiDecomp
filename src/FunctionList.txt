@@ -1,21 +1,21 @@
 # C Runtime & ELF Entry
 __init_cpp X - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-__init_data - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-__init_hardware - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-__init_registers - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-__init_user - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-__start - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-__stdio_atexit - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-exit - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-memchr - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-memcpy - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-memmove - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-memset - auto_00_80004000_init.s and C++_Runtime/Runtime.s
-strchr - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-strcpy - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-strlen - auto_03_80227A94_text.s and C++_Runtime/Runtime.s
-strnlen - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-vprintf - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+__init_data [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+__init_hardware [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+__init_registers [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+__init_user [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+__start [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+__stdio_atexit [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+exit [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+memchr [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+memcpy [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+memmove [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+memset [x] - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+strchr [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+strcpy [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+strlen [x] - auto_03_80227A94_text.s and C++_Runtime/Runtime.s
+strnlen [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
+vprintf [x] - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
 
 # OS Kernel & Thread Management
 OSAllocFromMEM1ArenaLo - auto_03_802289B0_text.s
@@ -12740,13 +12740,13 @@ __destroy_global_chain - auto_03_80227A94_text.s
 __div2u - auto_03_80227F88_text.s
 __fill_mem - auto_00_80004000_init.s
 __flush_buffer - auto_03_802289B0_text.s
-__flush_cache - auto_00_80004000_init.s
+__flush_cache - auto_00_80004000_init.s [x]
 __fwrite - auto_03_802289B0_text.s
 __get_debug_bba - auto_00_80004000_init.s
 __memrchr - auto_03_802289B0_text.s
 __mod2u - auto_03_80227F88_text.s
 __msl_runtime_constraint_violation_s - auto_03_802289B0_text.s
-__my_flush_cache - auto_00_80004000_init.s
+__my_flush_cache - auto_00_80004000_init.s [x]
 __pformatter_8022DAB0 - auto_03_802289B0_text.s
 __prep_buffer - auto_03_802289B0_text.s
 __register_fragment - auto_03_802289B0_text.s

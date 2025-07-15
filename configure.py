@@ -294,7 +294,8 @@ config.libs = [
         "objects": [
             Object(NonMatching, "Runtime.PPCEABI.H/global_destructor_chain.c"),
             Object(NonMatching, "Runtime.PPCEABI.H/__init_cpp_exceptions.cpp"),
-            Object(NonMatching, "DecompStart/src/C++_Runtime/__ppc_eabi_init.c"),
+            Object(NonMatching, "src/code/C++_Runtime/__ppc_eabi_init.c"),
+            Object(NonMatching, "src/code/C++_Runtime/start.c"),
         ],
     },
 ]

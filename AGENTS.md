@@ -19,12 +19,10 @@ Read these documents before making major edits or when unsure about the process.
 
 ## Decompilation Workflow
 
-1. Identify the function to decompile in `DecompStart/fromgame/asm`.
+1. Identify the function to decompile in `src/fromgame/asm`.
 2. Look in `DecompReference/` for similar implementations.
-3. Create or update a source file in `src/` matching the function. For early
-   work placed under `DecompStart`, place C or C++ files in
-   `DecompStart/src` and any headers (such as `macros.h`) in
-   `DecompStart/include`.
+3. Create or update a source file in `src/code` matching the function. Place
+   any headers (such as `macros.h`) in `src/include`.
 4. Gather Confirmation from user that decomp looks good
 
 5. Update `configure.py` and `splits.txt` to point to the new file.6
@@ -40,6 +38,6 @@ Repeat for additional functions, keeping each file small and focused.
 
 ## Function List Tracking
 
-- Check `DecompStart/FunctionList.txt` for the master list of functions.
+- Check `src/FunctionList.txt` for the master list of functions.
 - Decompile functions in the order they appear in this file.
 - After successfully decompiling a function, add ` [x]` to the end of its line to mark it complete.
