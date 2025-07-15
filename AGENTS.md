@@ -19,10 +19,10 @@ Read these documents before making major edits or when unsure about the process.
 
 ## Decompilation Workflow
 
-1. Identify the function to decompile in `DecompStart/fromgame/asm`.
+1. Identify the function to decompile in `ASMFiles/fromgame/asm` and `ASMFiles/FunctionList.txt`.
 2. Look in `DecompReference/` for similar implementations.
 3. Create or update a source file in `src/` matching the function. For early
-   work placed under `DecompStart`, place C, any headers, or C++ files in
+   work placed under `ASMFiles`, place C, any headers, or C++ files in
    `src`.
 4. Gather Confirmation from user that decomp looks good
 
@@ -39,6 +39,6 @@ Repeat for additional functions, keeping each file small and focused.
 
 ## Function List Tracking
 
-- Check `DecompStart/FunctionList.txt` for the master list of functions.
+- Check `ASMFiles/FunctionList.txt` for the master list of functions.
 - Decompile functions in the order they appear in this file.
 - After successfully decompiling a function, add ` [x]` to the end of its line to mark it complete.
