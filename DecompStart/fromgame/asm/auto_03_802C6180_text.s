@@ -1,0 +1,71 @@
+.include "macros.inc"
+.file "auto_03_802C6180_text"
+
+# 0x802C6180..0x802C6224 | size: 0xA4
+.text
+.balign 4
+
+# .text:0x0 | 0x802C6180 | size: 0x24
+.fn fn_802C6180, global
+/* 802C6180 002C1580  80 AD 8E 54 */	lwz r5, lbl_806A7A74@sda21(r0)
+/* 802C6184 002C1584  2C 05 00 00 */	cmpwi r5, 0x0
+/* 802C6188 002C1588  4D 82 00 20 */	beqlr
+/* 802C618C 002C158C  81 85 00 48 */	lwz r12, 0x48(r5)
+/* 802C6190 002C1590  2C 0C 00 00 */	cmpwi r12, 0x0
+/* 802C6194 002C1594  4D 82 00 20 */	beqlr
+/* 802C6198 002C1598  7D 89 03 A6 */	mtctr r12
+/* 802C619C 002C159C  4E 80 04 20 */	bctr
+/* 802C61A0 002C15A0  4E 80 00 20 */	blr
+.endfn fn_802C6180
+
+# .text:0x24 | 0x802C61A4 | size: 0x24
+.fn fn_802C61A4, global
+/* 802C61A4 002C15A4  80 ED 8E 54 */	lwz r7, lbl_806A7A74@sda21(r0)
+/* 802C61A8 002C15A8  2C 07 00 00 */	cmpwi r7, 0x0
+/* 802C61AC 002C15AC  4D 82 00 20 */	beqlr
+/* 802C61B0 002C15B0  81 87 00 50 */	lwz r12, 0x50(r7)
+/* 802C61B4 002C15B4  2C 0C 00 00 */	cmpwi r12, 0x0
+/* 802C61B8 002C15B8  4D 82 00 20 */	beqlr
+/* 802C61BC 002C15BC  7D 89 03 A6 */	mtctr r12
+/* 802C61C0 002C15C0  4E 80 04 20 */	bctr
+/* 802C61C4 002C15C4  4E 80 00 20 */	blr
+.endfn fn_802C61A4
+
+# .text:0x48 | 0x802C61C8 | size: 0x24
+.fn fn_802C61C8, global
+/* 802C61C8 002C15C8  80 AD 8E 54 */	lwz r5, lbl_806A7A74@sda21(r0)
+/* 802C61CC 002C15CC  2C 05 00 00 */	cmpwi r5, 0x0
+/* 802C61D0 002C15D0  4D 82 00 20 */	beqlr
+/* 802C61D4 002C15D4  81 85 00 58 */	lwz r12, 0x58(r5)
+/* 802C61D8 002C15D8  2C 0C 00 00 */	cmpwi r12, 0x0
+/* 802C61DC 002C15DC  4D 82 00 20 */	beqlr
+/* 802C61E0 002C15E0  7D 89 03 A6 */	mtctr r12
+/* 802C61E4 002C15E4  4E 80 04 20 */	bctr
+/* 802C61E8 002C15E8  4E 80 00 20 */	blr
+.endfn fn_802C61C8
+
+# .text:0x6C | 0x802C61EC | size: 0x18
+.fn fn_802C61EC, global
+/* 802C61EC 002C15EC  3C 80 80 33 */	lis r4, lbl_8032B768@ha
+/* 802C61F0 002C15F0  3C 60 80 5B */	lis r3, lbl_805B3908@ha
+/* 802C61F4 002C15F4  38 84 B7 68 */	addi r4, r4, lbl_8032B768@l
+/* 802C61F8 002C15F8  90 8D 8E 58 */	stw r4, lbl_806A7A78@sda21(r0)
+/* 802C61FC 002C15FC  38 63 39 08 */	addi r3, r3, lbl_805B3908@l
+/* 802C6200 002C1600  4E 80 00 20 */	blr
+.endfn fn_802C61EC
+
+# .text:0x84 | 0x802C6204 | size: 0xC
+.fn fn_802C6204, global
+/* 802C6204 002C1604  3C 60 80 5B */	lis r3, lbl_805B3964@ha
+/* 802C6208 002C1608  38 63 39 64 */	addi r3, r3, lbl_805B3964@l
+/* 802C620C 002C160C  4E 80 00 20 */	blr
+.endfn fn_802C6204
+
+# .text:0x90 | 0x802C6210 | size: 0x14
+.fn fn_802C6210, global
+/* 802C6210 002C1610  54 63 68 24 */	slwi r3, r3, 13
+/* 802C6214 002C1614  38 03 20 20 */	addi r0, r3, 0x2020
+/* 802C6218 002C1618  54 03 00 3A */	clrrwi r3, r0, 2
+/* 802C621C 002C161C  38 63 00 04 */	addi r3, r3, 0x4
+/* 802C6220 002C1620  4E 80 00 20 */	blr
+.endfn fn_802C6210
