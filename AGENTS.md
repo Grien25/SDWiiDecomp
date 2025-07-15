@@ -12,7 +12,8 @@ The overarching objective of the repository is **match making** decompilation. O
 - **docs/splits.md** – Details on editing `splits.txt` to map address ranges to source files.
 - **docs/symbols.md** – Describes the `symbols.txt` format for symbol names and attributes.
 - **Reference/decomp_guide_051425.pdf** – Walkthrough for decompiling a first function.
-- **DecompReference/** – Examples of decompiled code from other projects.
+- **DecompReference/Key or /mkw or /rb3** – Examples of decompiled code from other projects.
+- **DecompReference/libogc** - open-source C library used for writing Wii and GameCube brew apps.
 
 Read these documents before making major edits or when unsure about the process.
 
@@ -24,12 +25,16 @@ Read these documents before making major edits or when unsure about the process.
    work placed under `DecompStart`, place C or C++ files in
    `DecompStart/src` and any headers (such as `macros.h`) in
    `DecompStart/include`.
-4. Update `configure.py` and `splits.txt` to point to the new file.
-5. Add the symbol to `symbols.txt` if needed.
-6. Run `python configure.py` and then `ninja` to build.
-7. Use `objdiff` to confirm that the compiled object matches.
-8. Commit both the new source and an updated assembly file comment noting the
-   function has been decompiled.
+4. Gather Confirmation from user that decomp looks good
+
+5. Update `configure.py` and `splits.txt` to point to the new file.6
+6. Add the symbol to `symbols.txt` if needed.
+
+7. User will run `python3 configure.py` and then `ninja` to build.
+8. User will also use `objdiff` to confirm that the compiled object matches.
+
+9. Commit both the new source and add an updated comment noting the
+   function has been decompiled under the assembly that you decompiled.
 
 Repeat for additional functions, keeping each file small and focused.
 
