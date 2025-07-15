@@ -28,6 +28,7 @@
 /* 80276B04 00271F04  4E 80 00 20 */	blr
 .endfn __init_cpp
 .fn __init_data, local
+# Decomped: DecompStart/src/C++_Runtime/init_data.c
 /* 80006560 00002660  94 21 FF E0 */	stwu r1, -0x20(r1)
 /* 80006564 00002664  7C 08 02 A6 */	mflr r0
 /* 80006568 00002668  90 01 00 24 */	stw r0, 0x24(r1)

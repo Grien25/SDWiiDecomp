@@ -1,6 +1,6 @@
 # C Runtime & ELF Entry
 __init_cpp X - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
-__init_data - auto_00_80004000_init.s and C++_Runtime/Runtime.s
+__init_data - auto_00_80004000_init.s and C++_Runtime/Runtime.s X
 __init_hardware - auto_00_80004000_init.s and C++_Runtime/Runtime.s
 __init_registers - auto_00_80004000_init.s and C++_Runtime/Runtime.s
 __init_user - auto_03_802289B0_text.s and C++_Runtime/Runtime.s
