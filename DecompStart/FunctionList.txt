@@ -1,5 +1,5 @@
 # C Runtime & ELF Entry
-__init_cpp
+__init_cpp X
 __init_data
 __init_hardware
 __init_registers
