@@ -1,7 +1,5 @@
 # C Runtime & ELF Entry
-__fini_cpp_exceptions
 __init_cpp
-__init_cpp_exceptions
 __init_data
 __init_hardware
 __init_registers
