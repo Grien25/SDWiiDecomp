@@ -7,3 +7,6 @@
 [submodule "DecompReference/mkw"]
 	path = DecompReference/mkw
 	url = https://github.com/Grien25/mkw.git
+[submodule "DecompReference/libogc"]
+	path = DecompReference/libogc
+	url = https://github.com/devkitPro/libogc.git
