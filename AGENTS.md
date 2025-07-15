@@ -32,3 +32,9 @@ Read these documents before making major edits or when unsure about the process.
    function has been decompiled.
 
 Repeat for additional functions, keeping each file small and focused.
+
+## Function List Tracking
+
+- Check `DecompStart/FunctionList.txt` for the master list of functions.
+- Decompile functions in the order they appear in this file.
+- After successfully decompiling a function, add ` [x]` to the end of its line to mark it complete.
