@@ -5,6 +5,7 @@
 .text
 .balign 4
 .fn __init_cpp, local
+# Decomped: DecompStart/src/C++ Runtime/init_cpp.c
 /* 80276AC0 00271EC0  94 21 FF F0 */	stwu r1, -0x10(r1)
 /* 80276AC4 00271EC4  7C 08 02 A6 */	mflr r0
 /* 80276AC8 00271EC8  90 01 00 14 */	stw r0, 0x14(r1)
