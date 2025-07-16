@@ -1,0 +1,4 @@
+# Example Python dependencies for the pipeline
+# Uncomment and adjust versions as needed
+#gpt4all
+#transformers
