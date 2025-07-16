@@ -10,3 +10,6 @@
 [submodule "DecompReference/libogc"]
 	path = DecompReference/libogc
 	url = https://github.com/devkitPro/libogc.git
+[submodule "DecompReference/PorpoiseTool"]
+	path = DecompReference/PorpoiseTool
+	url = https://github.com/wowjinxy/PorpoiseTool.git
