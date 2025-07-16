@@ -1,0 +1,115 @@
+MEMORY
+{
+    text : origin = 0x80004000
+}
+
+SECTIONS
+{
+    GROUP:
+    {
+        .init ALIGN(0x4):{}
+        extab ALIGN(0x20):{}
+        extabindex ALIGN(0x20):{}
+        .text ALIGN(0x20):{}
+        .ctors ALIGN(0x8):{}
+        .dtors ALIGN(0x8):{}
+        .rodata ALIGN(0x20):{}
+        .data ALIGN(0x20):{}
+        .bss ALIGN(0x40):{}
+        .sdata ALIGN(0x10):{}
+        .sbss ALIGN(0x20):{}
+        .sdata2 ALIGN(0x8):{}
+        .sbss2 ALIGN(0x10):{}
+        .stack ALIGN(0x100):{}
+    } > text
+
+    _stack_end = _f_sbss2 + SIZEOF(.sbss2);
+    _stack_addr = (_stack_end + 0x20000 + 0x7) & ~0x7;
+    _db_stack_addr = (_stack_addr + 0x2000);
+    _db_stack_end = _stack_addr;
+    __ArenaLo = (_db_stack_addr + 0x7) & ~0x7;
+    __ArenaHi = 0x81700000;
+}
+
+FORCEACTIVE
+{
+    fn_8001CAE0
+    fn_8002404C
+    fn_8004BDA4
+    fn_800575B0
+    fn_80058B0C
+    fn_8006172C
+    fn_80066B94
+    fn_8006F234
+    fn_80070E50
+    fn_8007148C
+    fn_80082E54
+    fn_80084994
+    fn_800854AC
+    fn_8008605C
+    fn_80086D4C
+    fn_80088F78
+    fn_80089B44
+    fn_8008A4D0
+    fn_8008B1C0
+    fn_8008D10C
+    fn_8008E858
+    fn_80090038
+    fn_80092018
+    fn_800955B0
+    fn_800968E0
+    fn_800975E0
+    fn_80098CD4
+    fn_800A1C1C
+    fn_800A4C08
+    fn_800A6B50
+    fn_800C7518
+    fn_800CC68C
+    fn_800D1FE8
+    fn_800D6F50
+    fn_80143B60
+    fn_80146C68
+    fn_8014EBEC
+    fn_80152810
+    fn_80154E24
+    fn_801587CC
+    fn_8015D6E0
+    fn_80160658
+    fn_80160D34
+    fn_801794B0
+    fn_80182368
+    fn_8018D83C
+    fn_80193318
+    fn_801944E0
+    fn_80196214
+    fn_80197E2C
+    fn_80199848
+    fn_801ADC38
+    fn_801B359C
+    fn_801B4670
+    fn_801B4E24
+    fn_801B86C4
+    fn_801B9A68
+    fn_801BAC58
+    fn_801C90EC
+    fn_801CA8A4
+    fn_801D3CAC
+    fn_801D918C
+    fn_801DD784
+    fn_801E10AC
+    fn_801E4A44
+    fn_801E6BDC
+    fn_801FFC64
+    fn_802192FC
+    fn_8021A624
+    fn_8022142C
+    fn_80227A88
+    __init_cpp_exceptions
+    __fini_cpp_exceptions
+    fn_802A3150
+    fn_802A9420
+    fn_802A9970
+    fn_802AADC0
+    fn_802AD3F0
+    fn_802B5CF0
+}
