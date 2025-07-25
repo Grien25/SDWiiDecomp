@@ -1,9 +1,9 @@
 # See config.example.yml for documentation.
-object_base: orig/SPDE52
+object_base: orig/SQME52
 object: sys/main.dol
-hash: b2df499fc3325ad5a11db613f62256888be9ead8
-symbols: config/SPDE52/symbols.txt
-splits: config/SPDE52/splits.txt
+hash: 7b8f717786e2f1dceb1a277aa027dba0c14cfd4a
+symbols: config/SQME52/symbols.txt
+splits: config/SQME52/splits.txt
 # Change this to match the linker version.
 # See config.example.yml for a list.
 ldscript_template: assets/ldscript.lcf
