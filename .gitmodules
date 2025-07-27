@@ -1,0 +1,21 @@
+[submodule "DecomProjects/key"]
+	path = DecomProjects/key
+	url = https://github.com/Swiftshine/key.git
+[submodule "DecomProjects/mkw"]
+	path = DecomProjects/mkw
+	url = https://github.com/riidefi/mkw.git
+[submodule "DecomProjects/tww"]
+	path = DecomProjects/tww
+	url = https://github.com/zeldaret/tww.git
+[submodule "DecomProjects/sms"]
+	path = DecomProjects/sms
+	url = https://github.com/doldecomp/sms.git
+[submodule "DecomProjects/ac-decomp"]
+	path = DecomProjects/ac-decomp
+	url = https://github.com/ACreTeam/ac-decomp.git
+[submodule "DecomProjects/rb3"]
+	path = DecomProjects/rb3
+	url = https://github.com/DarkRTA/rb3.git
+[submodule "DecomProjects/ss"]
+	path = DecomProjects/ss
+	url = https://github.com/zeldaret/ss.git
